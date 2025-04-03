@@ -1,0 +1,17 @@
+<Configuration>
+  <Remove All="True">
+    <Product ID="O365ProPlusRetail">
+      <!-- List the languages that were installed. Listing each language code ensures they are all removed. -->
+      <Language ID="ar-sa" />
+      <Language ID="en-us" />
+      <Language ID="es-es" />
+      <Language ID="fr-fr" />
+      <Language ID="ko-kr" />
+      <Language ID="pt-br" />
+      <Language ID="th-th" />
+      <Language ID="zh-tw" />
+      <!-- Add any other language codes as needed -->
+    </Product>
+  </Remove>
+  <Display Level="None" AcceptEULA="True" />
+</Configuration>
